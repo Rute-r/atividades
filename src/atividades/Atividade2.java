@@ -12,16 +12,16 @@ public class Atividade2 {
         
         float nota1, nota2, nota3, nota4, media;
         
-        System.out.println("Digite a primeira nota: ");
+        System.out.println("Nota 1: ");
         nota1 = ler.nextFloat();
         
-        System.out.println("Digite a segunda nota: ");
+        System.out.println("Nota 2: ");
         nota2 = ler.nextFloat();
         
-        System.out.println("Digite a terceira nota: ");
+        System.out.println("Nota 3: ");
         nota3 = ler.nextFloat();
         
-        System.out.println("Digite a quarta nota: ");
+        System.out.println("Nota 4: ");
         nota4 = ler.nextFloat();
         
         media = (nota1 + nota2 + nota3 + nota4) / 4;

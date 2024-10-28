@@ -20,7 +20,7 @@ public class Atividade1 {
         
         novoSalario = salario + abono;
         
-        System.out.println("Novo Salário: " + novoSalario);
+        System.out.printf(Locale.US, "Novo Salário: %.2f\n", novoSalario); //printa com dois numeros pos ponto decimal
         
         ler.close();
 
