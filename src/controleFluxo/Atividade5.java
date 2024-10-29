@@ -62,7 +62,8 @@ public class Atividade5 {
 		default:
 			System.out.println("Digite um valor valido");
 		}		
-
+		
+		ler.close();
 	}
 
 }
