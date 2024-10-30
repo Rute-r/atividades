@@ -18,7 +18,7 @@ public class Atividade1 {
 		if (primeiroNum > segundoNum) {
 			System.out.println("Intervalo inválido!");
 		} else {
-			for(int i = primeiroNum; i < segundoNum; i++) {
+			for(int i = primeiroNum; i <= segundoNum; i++) {
 				if(i % 5 == 0 && i % 3 == 0) {
 					System.out.println(i + " é multiplo de 3 e 5");
 				}
