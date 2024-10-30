@@ -19,10 +19,10 @@ public class Atividade3 {
 			}
 		}
 
-		System.out.println(
-				"Total de pessoas menores de 21 anos: " + menor21 + "\nTotal de pessoas maiores de 50 anos: " + maior50);
+		System.out.println("Total de pessoas menores de 21 anos: " + menor21 + "\nTotal de pessoas maiores de 50 anos: "
+				+ maior50);
 		;
-		
+
 		scanner.close();
 	}
 
