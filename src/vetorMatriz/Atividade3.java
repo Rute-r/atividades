@@ -3,7 +3,12 @@ package vetorMatriz;
 public class Atividade3 {
 
 	public static void main(String[] args) {
-		int matrizNumeros[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+		int matrizNumeros[][] = { 
+				{ 1, 2, 3 },
+				{ 4, 5, 6 },
+				{ 7, 8, 9 }
+		};
+		
 		int somaPrincipal = 0, somaSecundaria = 0;
 
 		System.out.println("Elementos da Diagonal Principal: ");
