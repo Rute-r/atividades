@@ -21,12 +21,6 @@ public class Atividade4 {
 			System.out.println("O número " + numeroProcurado + " não foi encontrado!");
 		}
 		scanner.close();
-
-		// Set Integer
-		// incia com 10 int
-		// scanner 1 int
-		// imprimir mensagem apropriada
-
 	}
 
 }
