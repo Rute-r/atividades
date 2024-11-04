@@ -18,6 +18,7 @@ public class Atividade1 {
 		System.out.println("\t3 - Retirar Cliente da Fila");
 		System.out.println("\t0 - Sair");
 		System.out.println("*********************************************");
+		System.out.println("Entre com a opção desejada: ");
 
 		do {
 			// Guarda uma opção do menu e limpa a fila do Scanner
@@ -31,7 +32,10 @@ public class Atividade1 {
 				System.out.println("\nDigite o Nome: ");
 				nome = scanner.nextLine();
 				fila.add(nome);
-				System.out.println("Cliente Adicionado!");
+				System.out.println("\nFila: \n");
+				for (String cliente : fila)
+					System.out.println(cliente);
+				System.out.println("\nCliente Adicionado!");
 				break;
 
 			case 2:
@@ -40,7 +44,7 @@ public class Atividade1 {
 					System.out.println("A fila está vazia.");
 				} else {
 					// Imprime todos os nomes na Lista
-					System.out.println("\nFila: \n");
+					System.out.println("\nLista de Clientes na Fila: \n");
 					for (String cliente : fila) {
 						System.out.println(cliente);
 					}
@@ -53,7 +57,11 @@ public class Atividade1 {
 				} else {
 					// Remove o primeiro nome da fila
 					String clienteChamado = fila.remove();
-					System.out.println("Cliente " + clienteChamado + " foi chamade!");
+					System.out.println("\nFila: \n");
+					for (String cliente : fila) {
+						System.out.println(cliente);
+					}
+					System.out.println("\nCliente " + clienteChamado + " foi chamade!");
 				}
 				break;
 			case 0:
